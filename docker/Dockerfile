@@ -16,9 +16,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-demo-nodes-cpp \
     ros-humble-demo-nodes-py \
     git \
+    ros-humble-turtlebot3-gazebo \
+    ros-humble-turtlebot3-simulations \
+    ros-humble-gazebo-ros-pkgs \
     nano \
     iputils-ping \
     net-tools \
+    ros-humble-slam-toolbox \
     && rm -rf /var/lib/apt/lists/*
 
 # Konfigurasi user non-root dan environment ROS
